@@ -7,17 +7,10 @@ import { DOCUMENT } from '@angular/common';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'e-commerce-frontend';
-  constructor( @Inject(DOCUMENT) private document: Document) {}
+  
+  constructor( ) {}
   // Open and close sidebar
-therichpost_open() {
-  document.getElementById("mySidebar")!.style.display = "block";
-  document.getElementById("myOverlay")!.style.display = "block";
-}
+
  
-therichpost_close() {
-  document.getElementById("mySidebar")!.style.display = "none";
-  document.getElementById("myOverlay")!.style.display = "none";
-}
 }
 

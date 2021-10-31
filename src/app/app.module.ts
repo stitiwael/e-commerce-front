@@ -9,7 +9,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
+
+import { SubscribeComponent } from './subscribe/subscribe.component';
 import { ContentComponent } from './content/content.component';
+import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 
 
 @NgModule({
@@ -19,7 +22,9 @@ import { ContentComponent } from './content/content.component';
     DataComponent,
     NavigationComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    SubscribeComponent,
+    WelcomepageComponent
   ],
   imports: [
     BrowserModule,
