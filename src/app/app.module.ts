@@ -13,7 +13,10 @@ import { FooterComponent } from './footer/footer.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { ContentComponent } from './content/content.component';
 import { WelcomepageComponent } from './welcomepage/welcomepage.component';
-
+import { UserListeComponent } from './user-liste/user-liste.component';
+import { LoginComponent } from './subscribe/login/login.component';
+import { RegisterComponent } from './subscribe/register/register.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,13 +27,17 @@ import { WelcomepageComponent } from './welcomepage/welcomepage.component';
     FooterComponent,
     ContentComponent,
     SubscribeComponent,
-    WelcomepageComponent
+    WelcomepageComponent,
+    UserListeComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

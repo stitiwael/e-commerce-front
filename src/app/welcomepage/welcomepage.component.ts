@@ -29,6 +29,9 @@ export class WelcomepageComponent implements OnInit {
   subscribe(){
     this.router.navigate(['subscribe'])
   }
+  user(){
+    this.router.navigate(['users'])
+  }
 
 
 }

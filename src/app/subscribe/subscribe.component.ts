@@ -11,5 +11,11 @@ export class SubscribeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  flag:boolean = true
 
+  apply(value:string){
+    this.flag = value == "login"?true : false;
+  }
+  
 }

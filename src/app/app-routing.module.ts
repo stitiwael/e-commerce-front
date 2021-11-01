@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { SubscribeComponent } from './subscribe/subscribe.component';
+import { UserListeComponent } from './user-liste/user-liste.component';
 import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 
 const routes: Routes = [
 
   {path:'subscribe', component: SubscribeComponent},
-  {path:'', component: WelcomepageComponent}
+  {path:'', component: WelcomepageComponent},
+  {path:'users', component:UserListeComponent}
   
 ];
 /*const routes: Routes = [

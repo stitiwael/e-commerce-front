@@ -1,0 +1,104 @@
+<!--
+<div class="container">
+    <div class="table-wrapper">
+      <div class="table-title">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2><b>List des utilisateurs</b></h2>
+          </div>
+          <div class="col-sm-6">
+            <a (click)="openAddUser(content1)" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Ajouter</span></a>
+        </div>
+        </div>
+      </div>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr >
+          
+           
+           
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>action</th>
+          </tr>
+        </thead>
+        <tbody >
+   
+          
+          <tr  >
+          
+            <td>1 </td>
+            <td>2</td>
+            <td >3 </td>
+           
+            <td >
+   
+                <button class="button" style="margin-left: -81px"    >Modifier</button>
+
+                <button class="button" style="margin-left: 10px"   >Supprimer</button>
+              </td>
+              
+          </tr>
+      
+        
+        </tbody>
+      </table>
+     
+  </div>
+
+  <ng-template #content1 let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Ajouter utilisateur</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+
+        <div class="form-group">
+        <p>Name</p>
+        </div>
+        <div class="form-group">
+          <input type="text"  class="form-control" name="name"   ngModel required >
+        </div>
+          
+       
+          <div class="form-group">
+            <p>Email</p>
+        </div>
+        <div class="form-group">
+          <input type="text"  class="form-control" name="mail"  ngModel required >
+        </div>
+
+        <div class="form-group">
+          <p>Password</p>
+          </div>
+          <div class="form-group">
+          <input type="password"  class="form-control" name="password"   ngModel required >
+        </div>
+        <div class="form-group">
+          <p>Role</p>
+          </div>
+          <div class="form-group">
+            <select   class="form-control" name="selectePlateforme" ngModel required>
+                  <option  [ngValue]="2">User</option>
+                  <option  [ngValue]="1">Admin</option>
+            </select>
+           </div>
+         
+               
+          <div class="modal-footer">
+            
+      
+              <button class="button" type="submit" [disabled]="f.invalid"  >Save</button>
+              
+              
+            
+          </div>
+      </form>
+    </div>
+    
+  </ng-template> 
+-->
