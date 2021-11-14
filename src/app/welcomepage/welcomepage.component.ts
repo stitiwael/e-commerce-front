@@ -32,6 +32,9 @@ export class WelcomepageComponent implements OnInit {
   user(){
     this.router.navigate(['users'])
   }
+  view_details(){
+    this.router.navigate(['detail-produit'])
+  }
 
 
 }

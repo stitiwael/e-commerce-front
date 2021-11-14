@@ -17,6 +17,7 @@ import { UserListeComponent } from './user-liste/user-liste.component';
 import { LoginComponent } from './subscribe/login/login.component';
 import { RegisterComponent } from './subscribe/register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DetailProduitComponent } from './detail-produit/detail-produit.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     WelcomepageComponent,
     UserListeComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    DetailProduitComponent
   ],
   imports: [
     BrowserModule,
